@@ -8,6 +8,7 @@ public class objectTest {
         role1.doSkill();
 
         System.out.println("aaaa");
+        System.out.println("bbbb");
     }
 
 
