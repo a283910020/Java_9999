@@ -6,6 +6,8 @@ public class objectTest {
         ObjectDemo1 role1 = new ObjectDemo1();
 
         role1.doSkill();
+
+        System.out.println("aaaa");
     }
 
 
