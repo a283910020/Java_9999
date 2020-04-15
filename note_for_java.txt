@@ -1,0 +1,44 @@
+#############################################
+string 类
+
+== 比的是地址 ==> object == object 一定是false
+
+
+##########################################################################################
+##########################################################################################
+StringBuffer / StringBuilder
+
+String += str
+StringBuffer.append(str)
+StringBuilder.append(str)
+
+StringBuilder为StringBuffer的升级版，最快
+但StringBuilder不是线程安全的，不能同步访问
+StringBuffer为String的1000倍以上
+
+StringBuffer比较
+StringBuffer str1 = new StringBuffer("hello");
+StringBuffer str2 = new StringBuffer("hello");
+
+str1.equal(str2) >>> false
+str1.toString().equal(str2.toString()) >>> true
+
+StringBuffer {append reverse insert delete replace set}
+StringBuffer.setLength(0)  清空
+
+##########################################################################################
+##########################################################################################
+继承和多态
+
+使用super关键字调用父类方法
+执行时先父类再子类
+构造方法不可以继承
+java里只能继承一个父类
+父类私有属性子类不能直接访问
+
+子类中 control + o ==> @override
+
+
+
+
+
